@@ -1,0 +1,38 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #121212;
+	margin: 0;
+	color: white;
+}
+
+.container {
+	margin-inline: auto;
+	max-width: 70rem;
+	padding-inline: 1rem;
+}
+
+.apps {
+	display: flex;
+	gap: 0.5rem;
+}
+.app {
+	background-color: #171717;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+.app a {
+	display: block;
+	background-color: #303030;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.app a:hover {
+	background-color: #454545;
+}
